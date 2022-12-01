@@ -76,3 +76,25 @@ nav ul{
     }
 
 }
+
+@media only screen and (max-width: 900px){
+
+    div:nth-child(14){
+        width: 125px;
+        height: 125px;
+        background: url(../images/tartine.jpg);
+     background-size:cover;
+    }
+
+}
+
+
+@media only screen and (min-width: 900px){
+
+    div:nth-child(14){
+        width: 250px;
+        height: 250px;
+        background: url(../images/tartine.jpg);
+     background-size:cover;
+    }
+}
