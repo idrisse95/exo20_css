@@ -4,12 +4,22 @@ nav ul{
     list-style-type: none;
 }
 
-@media only screen and (max-width: 1250px){
+@media only screen and (min-width: 1250px){
 
     ul:nth-child(3) li:nth-child(1){
         background-color: blue;
     }
     ul:nth-child(3) li:nth-child(2){
         color: green;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+
+    ul:nth-child(5) li:nth-child(1){
+        color: orange;
+    }
+    ul:nth-child(5) li:nth-child(2){
+        color: red;
     }
 }
