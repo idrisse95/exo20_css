@@ -63,3 +63,16 @@ nav ul{
     }
 
 }
+
+@media only screen and (min-width: 900px) and (max-width: 1250px){
+
+    h2:nth-child(10){
+       border: 1px solid;
+       color: red;
+    }
+    ul:nth-child(11) li{
+        color: red;
+        border: 1px solid;
+    }
+
+}
