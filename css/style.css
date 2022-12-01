@@ -9,5 +9,7 @@ nav ul{
     ul:nth-child(3) li:nth-child(1){
         background-color: blue;
     }
-
+    ul:nth-child(3) li:nth-child(2){
+        color: green;
+    }
 }
