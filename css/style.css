@@ -12,6 +12,10 @@ nav ul{
     ul:nth-child(3) li:nth-child(2){
         color: green;
     }
+    ul:nth-child(7) li:nth-child(2){
+        color: blue;
+        font-style: italic;
+    }
 }
 
 @media only screen and (max-width: 1250px){
@@ -22,4 +26,13 @@ nav ul{
     ul:nth-child(5) li:nth-child(2){
         color: red;
     }
+}
+
+@media only screen and (max-width: 1000px){
+
+    ul:nth-child(7) li:nth-child(1){
+       font-weight: bold;
+       text-decoration: underline;
+    }
+
 }
